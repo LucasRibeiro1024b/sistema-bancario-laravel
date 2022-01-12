@@ -30,7 +30,7 @@
             <div class="mt-4">
                 <x-label for="cpf" :value="__('Cpf')" />
 
-                <x-input id="cpf" class="block mt-1 w-full" type="text" name="cpf" :value="old('cpf')" required />
+                <x-input id="cpf" class="block mt-1 w-full" type="text" name="cpf" :value="old('cpf')" onkeyUp="clickhandler" required />
             </div>
 
             <!-- Password -->
